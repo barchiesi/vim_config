@@ -1,3 +1,6 @@
+# DEPENDANCIES #
+Requires `ctags` for Taglist plugin. Building YouCompleteMe requires `cmake` and `clang`.
+
 # POST CLONE INSTRUCTIONS #
 
 1. Run `git submodule init` and `git submodule update` to pull in all pathogen plugins.
