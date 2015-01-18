@@ -40,3 +40,6 @@
 [submodule "bundle/vim-trailing-whitespace"]
 	path = bundle/vim-trailing-whitespace
 	url = http://github.com/bronson/vim-trailing-whitespace
+[submodule "bundle/vim-atom-dark"]
+	path = bundle/vim-atom-dark
+	url = https://github.com/gosukiwi/vim-atom-dark.git

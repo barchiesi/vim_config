@@ -93,7 +93,7 @@ set wildmenu
 " Set colorscheme
 set t_Co=16
 set background=dark
-colorscheme badwolf
+colorscheme atom-dark
 
 " Set default size for gvim
 if has('gui_running')
