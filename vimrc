@@ -106,9 +106,7 @@ set nostartofline
 set encoding=utf8
 
 " Set colorscheme
-set t_Co=16
-colorscheme atom-dark
-set background=dark
+colorscheme jellybeans
 
 " Set default size for gvim
 if has('gui_running')
