@@ -16,13 +16,14 @@ Requires `ctags` for Taglist plugin. Building YouCompleteMe requires `cmake` and
 4. NERD Commenter
 5. NERD Tree
 6. Better Rainbow Parentheses
-7. Syntastic
-8. Tagbar
-9. UltiSnips
-10. Indent Guides
-11. snipMate & UltiSnip Snippets
-12. Trailing Whitespace
-13. YouCompleteMe
+7. Sparkup
+8. Syntastic
+9. Tagbar
+10. UltiSnips
+11. Indent Guides
+12. snipMate & UltiSnip Snippets
+13. Trailing Whitespace
+14. YouCompleteMe
 
 # INSTALLED COLORSCHEMES #
 1. Bad Wolf
