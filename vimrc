@@ -43,6 +43,9 @@ set incsearch
 " Height of the command bar
 set cmdheight=2
 
+" When moving with j/k always keep 10 lines above the cursor
+set so=10
+
 " Set to auto read when a file is changed from the outside
 set autoread
 
@@ -57,9 +60,11 @@ set magic
 
 " Show matching brackets when text indicator is over them
 set showmatch
-
 " How many tenths of a second to blink when matching brackets
 set mat=2
+
+" Better command-line completion
+set wildmenu
 
 " Ignore compiled files
 set wildignore=*.o,*~,*.pyc
@@ -97,13 +102,13 @@ set autoindent
 " coming from other editors would expect.
 set nostartofline
 
-" Better command-line completion
-set wildmenu
+" Set utf8 as standard encoding and en_US as the standard language
+set encoding=utf8
 
 " Set colorscheme
 set t_Co=16
-set background=dark
 colorscheme atom-dark
+set background=dark
 
 " Set default size for gvim
 if has('gui_running')
@@ -112,6 +117,10 @@ if has('gui_running')
     set columns=90
     set gfn=Source\ Code\ Pro\ 12
     set laststatus=2
+    " Remove menubar
+    set guioptions-=m
+    " Remove toolbar
+    set guioptions-=T
 endif
 
 " Don't use Ex mode, use Q for formatting
