@@ -19,12 +19,22 @@ set nocompatible
 "and for plugins that are filetype specific.
 filetype indent plugin on
 
-" allow backspacing over everything in insert mode
+" Allow backspacing over everything in insert mode
 set backspace=indent,eol,start
-set nu			" show line numbering
-set nobackup		" do not keep a backup file, use versions instead
-set history=50		" keep 50 lines of command line history
-set showcmd		" display incomplete commands
+"
+" Show line numbering
+set nu
+
+" Do not keep a backup file, use versions instead
+set nobackup
+
+" Keep 50 lines of command line history
+set history=50
+
+" Display incomplete commands
+set showcmd
+
+" Don't wrap long lines
 set nowrap
 
 " Makes search act like search in modern browsers
@@ -236,7 +246,7 @@ nnoremap <silent> <C-l> :noh<CR><C-l>
 " Map gb to CtrlPBuffer switcher
 nnoremap gb :CtrlPBuffer<CR>
 
-" ultisnips shortcuts
+" UltiSnips shortcuts
 let g:UltiSnipsExpandTrigger       = "<c-j>"
 let g:UltiSnipsJumpForwardTrigger  = "<c-j>"
 let g:UltiSnipsJumpBackwardTrigger = "<c-p>"
