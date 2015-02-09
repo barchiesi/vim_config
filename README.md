@@ -5,9 +5,8 @@ Requires `ctags` for Taglist plugin. Building YouCompleteMe requires `cmake` and
 1. Clone this repository in `~/.vim`.
 2. Enter `~/.vim` and run `git submodule init` and `git submodule update` to pull in all pathogen plugins.
 3. Create a `swap` directory inside `~/.vim`.
-4. Add `~/.vimrc` link to this `vimrc`.
-5. Enter `~/.vim/bundle/YouCompleteMe` and run `git submodule update --init --recursive` to download YouCompleteMes dependencies.
-6. Follow build instructions for YouCompleteMe on the git repo.
+4. Enter `~/.vim/bundle/YouCompleteMe` and run `git submodule update --init --recursive` to download YouCompleteMes dependencies.
+5. Follow build instructions for YouCompleteMe on the git repo.
 
 # INSTALLED PLUGINS #
 1. Pathogen

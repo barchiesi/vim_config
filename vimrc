@@ -43,9 +43,6 @@ set incsearch
 " Height of the command bar
 set cmdheight=2
 
-" When moving with j/k always keep 10 lines above the cursor
-set so=10
-
 " Set to auto read when a file is changed from the outside
 set autoread
 
@@ -119,6 +116,8 @@ if has('gui_running')
     set guioptions-=m
     " Remove toolbar
     set guioptions-=T
+    " Set different colorscheme for gui
+    colorscheme badwolf
 endif
 
 " Don't use Ex mode, use Q for formatting
