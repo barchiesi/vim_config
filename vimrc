@@ -102,6 +102,12 @@ set nostartofline
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
 
+" Enable persistent undo
+set undodir=~/.vim/undodir
+set undofile
+set undolevels=1000 "maximum number of changes that can be undone
+set undoreload=10000 "maximum number lines to save for undo on a buffer reload
+
 " Set colorscheme
 colorscheme jellybeans
 
