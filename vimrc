@@ -31,6 +31,9 @@ set nobackup
 " Keep 50 lines of command line history
 set history=50
 
+" Keep 8 lines below cursor
+set scrolloff=8
+
 " Display incomplete commands
 set showcmd
 
