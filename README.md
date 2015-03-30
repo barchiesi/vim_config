@@ -23,6 +23,7 @@ Requires `ctags` for Taglist plugin. Building YouCompleteMe requires `cmake` and
 12. snipMate & UltiSnip Snippets
 13. Trailing Whitespace
 14. YouCompleteMe
+15. vim-javascript
 
 # INSTALLED COLORSCHEMES #
 1. Bad Wolf
