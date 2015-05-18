@@ -199,7 +199,7 @@ let NERDTreeIgnore = ['\.pyc$']
 
 " CtrlP
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|env\|web/node_modules$\|web/bower_components$',
+  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|env\|node_modules$\|bower_components$|dist$',
   \ 'file': '\.exe$\|\.so$\|\.dat$'
   \ }
 

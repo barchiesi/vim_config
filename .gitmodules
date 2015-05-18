@@ -52,3 +52,9 @@
 [submodule "/home/david/.vim/bundle/vim-javascript"]
 	path = /home/david/.vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "bundle/vim-minimap"]
+	path = bundle/vim-minimap
+	url = https://github.com/severin-lemaignan/vim-minimap.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
