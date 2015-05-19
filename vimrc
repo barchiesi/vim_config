@@ -116,7 +116,8 @@ set splitbelow
 set splitright
 
 " Set colorscheme
-colorscheme jellybeans
+set background=dark
+colorscheme solarized
 
 " Set default size for gvim
 if has('gui_running')
@@ -129,8 +130,6 @@ if has('gui_running')
     set guioptions-=m
     " Remove toolbar
     set guioptions-=T
-    " Set different colorscheme for gui
-    colorscheme badwolf
 endif
 
 " Don't use Ex mode, use Q for formatting
