@@ -7,6 +7,8 @@ Requires `ctags` for Taglist plugin. Building YouCompleteMe requires `cmake` and
 3. Create `swap` and `undodir` directories inside `~/.vim`.
 4. Follow build instructions for YouCompleteMe on the git repo.
 
+or run `easy_init.sh` that should do all of the above.
+
 # INSTALLED PLUGINS #
 1. Pathogen
 2. CtrlP
@@ -22,12 +24,13 @@ Requires `ctags` for Taglist plugin. Building YouCompleteMe requires `cmake` and
 12. snipMate & UltiSnip Snippets
 13. Trailing Whitespace
 14. YouCompleteMe
-15. vim-javascript
+15. Minimap
 
 # INSTALLED COLORSCHEMES #
 1. Bad Wolf
 2. atom-dark
 3. jellybeans
+4. solarized
 
 # INSTALLED SYNTAX FILES #
 1. less
