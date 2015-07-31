@@ -25,6 +25,7 @@ or run `easy_init.sh` that should do all of the above.
 13. Trailing Whitespace
 14. YouCompleteMe
 15. Minimap
+16. vim-javascript
 
 # INSTALLED COLORSCHEMES #
 1. Bad Wolf
