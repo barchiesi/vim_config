@@ -36,6 +36,7 @@ or run `easy_init.sh` that should do all of the above.
 
 # INSTALLED SYNTAX FILES #
 1. less
+2. i3-vim-syntax
 
 # UPDATING PATHOGEN PLUGINS #
 Run `git submodule foreach git pull origin master` to update all installed plugins.
