@@ -124,7 +124,7 @@ if has('gui_running')
     " Window size
     set lines=50
     set columns=90
-    set gfn=Source\ Code\ Pro\ 12
+    set gfn=Inconsolata\ Medium\ 13
     set laststatus=2
     " Remove menubar
     set guioptions-=m
