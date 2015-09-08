@@ -231,6 +231,12 @@ let g:airline_powerline_fonts = 1
 " KEY CONFIGURATION
 """""""""""""""""""""""""""
 
+" Disable arrow keys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
 " Move lines up/down with Alt+k/j
 nnoremap <A-j> :m .+1<CR>==
 nnoremap <A-k> :m .-2<CR>==
