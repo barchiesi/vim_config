@@ -115,13 +115,11 @@ set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 set splitbelow
 set splitright
 
-" Set colorscheme
-set background=dark
-colorscheme solarized
-
 " Set default size for gvim
 if has('gui_running')
     " Window size
+    set background=dark
+    colorscheme solarized
     set lines=50
     set columns=90
     set gfn=Inconsolata\ Medium\ 13
@@ -130,6 +128,9 @@ if has('gui_running')
     set guioptions-=m
     " Remove toolbar
     set guioptions-=T
+else
+    " Set colorscheme
+    colorscheme jellybeans
 endif
 
 " Don't use Ex mode, use Q for formatting
