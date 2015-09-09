@@ -29,6 +29,7 @@ or run `easy_init.sh` that should do all of the above.
 17. YCM-Generator
 18. Colorizer
 19. vim-airline
+20. vimtips-fortune
 
 # INSTALLED COLORSCHEMES #
 1. Bad Wolf
