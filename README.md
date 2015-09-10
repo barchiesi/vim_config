@@ -1,5 +1,5 @@
 # DEPENDENCIES #
-Requires `ctags` for Taglist plugin. Building YouCompleteMe requires `cmake` and `clang`.
+Requires `ctags` for Taglist plugin. Building YouCompleteMe requires `cmake`, `clang`, `python2-jedi` for python competion.
 
 # INSTALL STEPS #
 1. Clone this repository in `~/.vim`.
@@ -26,10 +26,9 @@ or run `easy_init.sh` that should do all of the above.
 14. YouCompleteMe
 15. Minimap
 16. vim-javascript
-17. YCM-Generator
-18. Colorizer
-19. vim-airline
-20. vimtips-fortune
+17. Colorizer
+18. vim-airline
+19. vimtips-fortune
 
 # INSTALLED COLORSCHEMES #
 1. Bad Wolf

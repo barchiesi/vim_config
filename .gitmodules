@@ -61,9 +61,6 @@
 [submodule "bundle/vim-javascript"]
 	path = bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
-[submodule "bundle/YCM-Generator"]
-	path = bundle/YCM-Generator
-	url = https://github.com/rdnetto/YCM-Generator.git
 [submodule "bundle/i3-vim-syntax"]
 	path = bundle/i3-vim-syntax
 	url = https://github.com/PotatoesMaster/i3-vim-syntax.git
