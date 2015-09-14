@@ -227,8 +227,6 @@ let g:ycm_autoclose_preview_window_after_completion = 1
 " vim-airline
 let g:airline_powerline_fonts = 1
 
-" vimtips-fortune
-let g:fortune_vimtips_display_in_window = 0
 
 """""""""""""""""""""""""""
 " KEY CONFIGURATION

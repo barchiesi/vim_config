@@ -28,7 +28,6 @@ or run `easy_init.sh` that should do all of the above.
 16. vim-javascript
 17. Colorizer
 18. vim-airline
-19. vimtips-fortune
 
 # INSTALLED COLORSCHEMES #
 1. Bad Wolf
