@@ -119,7 +119,7 @@ set splitright
 if has('gui_running')
     " Window size
     set background=dark
-    colorscheme solarized
+    colorscheme jellybeans
     set lines=50
     set columns=90
     set gfn=Inconsolata\ Medium\ 13
