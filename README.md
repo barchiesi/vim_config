@@ -34,6 +34,7 @@ or run `easy_init.sh` that should do all of the above.
 2. atom-dark
 3. jellybeans
 4. solarized
+5. gruvbox
 
 # INSTALLED SYNTAX FILES #
 1. less
