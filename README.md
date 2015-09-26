@@ -1,5 +1,7 @@
 # DEPENDENCIES #
-Requires `ctags` for Taglist plugin. Building YouCompleteMe requires `cmake`, `clang`, `python2-jedi` for python competion.
+1. ctags for Taglist plugin
+2. Building YouCompleteMe requires cmake, clang
+3. python2-jedi for python competion.
 
 # INSTALL STEPS #
 1. Clone this repository in `~/.vim`.
