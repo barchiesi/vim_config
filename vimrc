@@ -52,6 +52,9 @@ set autoread
 " Always show current position
 set ruler
 
+" Always show the status line - airline in our case
+set laststatus=2
+
 " Don't redraw while executing macros (good performance config)
 set lazyredraw
 
@@ -124,7 +127,6 @@ if has('gui_running')
     set lines=50
     set columns=90
     set gfn=Inconsolata\ Medium\ 13
-    set laststatus=2
     " Remove menubar
     set guioptions-=m
     " Remove toolbar
