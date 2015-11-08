@@ -118,6 +118,9 @@ set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 set splitbelow
 set splitright
 
+" Enable concealing
+set conceallevel=1
+
 set background=dark
 colorscheme gruvbox
 
@@ -195,7 +198,11 @@ au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
 " NERDTree
-let NERDTreeIgnore = ['\.pyc$']
+let NERDTreeIgnore = [
+    \ '\.pyc$',
+    \ '^node_modules$',
+    \ '^bower_components$'
+\ ]
 
 " CtrlP
 let g:ctrlp_custom_ignore = {
@@ -226,6 +233,28 @@ let g:ycm_autoclose_preview_window_after_completion = 1
 
 " vim-airline
 let g:airline_powerline_fonts = 1
+
+" vim-javascript
+let g:javascript_conceal_function = "ƒ"
+
+" javascript-libraries-syntax.vim
+let g:used_javascript_libs = 'jquery,angularjs,jasmine'
+" Supported lib ids:
+"jQuery: jquery
+"underscore.js: underscore
+"Lo-Dash: underscore
+"Backbone.js: backbone
+"prelude.ls: prelude
+"AngularJS: angularjs
+"AngularUI: angularui
+"AngularUI Router: angularuirouter
+"React: react
+"Flux: flux
+"RequireJS: requirejs
+"Sugar.js: sugar
+"Jasmine: jasmine
+"Chai: chai
+"Handlebars: handlebars
 
 
 """""""""""""""""""""""""""
