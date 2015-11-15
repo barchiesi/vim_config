@@ -122,7 +122,6 @@ set splitright
 set conceallevel=1
 
 set background=dark
-colorscheme gruvbox
 
 " Set default size for gvim
 if has('gui_running')
@@ -134,6 +133,9 @@ if has('gui_running')
     set guioptions-=m
     " Remove toolbar
     set guioptions-=T
+    colorscheme jellybeans
+else
+    colorscheme gruvbox
 endif
 
 " Don't use Ex mode, use Q for formatting
