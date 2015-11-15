@@ -2,6 +2,7 @@
 1. ctags for Taglist plugin
 2. Building YouCompleteMe requires cmake, clang
 3. python2-jedi for python competion.
+4. php-codesniffer for php lint.
 
 # INSTALL STEPS #
 1. Clone this repository in `~/.vim`.
@@ -30,6 +31,9 @@ or run `easy_init.sh` that should do all of the above.
 16. vim-javascript
 17. Colorizer
 18. vim-airline
+19. fugitive.vim
+20. vim-gitgutter
+21. phpcomplete.vim
 
 # INSTALLED COLORSCHEMES #
 1. Bad Wolf
@@ -41,6 +45,8 @@ or run `easy_init.sh` that should do all of the above.
 # INSTALLED SYNTAX FILES #
 1. less
 2. i3-vim-syntax
+3. php
+4. javascript-libraries-syntax.vim
 
 # UPDATING PATHOGEN PLUGINS #
 Run `git submodule foreach git pull origin master` to update all installed plugins.
