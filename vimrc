@@ -23,7 +23,7 @@ filetype indent plugin on
 set backspace=indent,eol,start
 "
 " Show line numbering
-set nu
+set number
 
 " Do not keep a backup file, use versions instead
 set nobackup
@@ -33,6 +33,10 @@ set history=50
 
 " Keep 8 lines below cursor
 set scrolloff=8
+
+" Don't recenter on horizontal scrolling
+set sidescroll=15
+set sidescrolloff=4
 
 " Display incomplete commands
 set showcmd
@@ -64,7 +68,7 @@ set magic
 " Show matching brackets when text indicator is over them
 set showmatch
 " How many tenths of a second to blink when matching brackets
-set mat=2
+set matchtime=10
 
 " Better command-line completion
 set wildmenu
@@ -195,6 +199,7 @@ endif
 """""""""""""""""""""""""""
 
 " Rainbow parenthesis
+au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
