@@ -20,7 +20,9 @@ flags = [
     '-I',
     '.',
     '-isystem',
-    '/usr/lib/c++/v1'
+    '/usr/lib/c++/v1',
+    '-I',
+    '/usr/include/c++/5.3.0/',
 ]
 
 if compilation_database_folder:

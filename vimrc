@@ -125,15 +125,14 @@ set splitright
 " Enable concealing
 set conceallevel=1
 
-set background=dark
-colorscheme gruvbox
+colorscheme jellybeans
 
 " Set default size for gvim
 if has('gui_running')
     " Window size
     set lines=50
     set columns=90
-    set gfn=Inconsolata\ Medium\ 14
+    set gfn=Inconsolata\ 14
     " Remove menubar
     set guioptions-=m
     " Remove toolbar
@@ -212,8 +211,11 @@ let NERDTreeIgnore = [
 " CtrlP
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$\|env\|node_modules$\|bower_components$|dist$',
-  \ 'file': '\.exe$\|\.so$\|\.dat$'
+  \ 'file': '\.exe$\|\.so$\|\.dat|\.class$'
   \ }
+
+" Win??
+"  \ 'file': '\v\.(exe|so|dll|class)$',
 
 " indent-guides
 let g:indent_guides_enable_on_vim_startup = 1
@@ -306,6 +308,8 @@ map <F7> <leader>c<space>
 " Ctrl-l to clear highlitings
 nnoremap <silent> <C-l> :noh<CR><C-l>
 
+" Map <leader>p to CtrlPTag
+map <leader>p :CtrlPTag<CR>
 " Map gb to CtrlPBuffer switcher
 nnoremap gb :CtrlPBuffer<CR>
 
