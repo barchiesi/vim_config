@@ -133,7 +133,7 @@ if has('gui_running')
     " Window size
     set lines=50
     set columns=90
-    set gfn=Inconsolata\ 14
+    set gfn=Inconsolata\ for\ Powerline\ 14
     " Remove menubar
     set guioptions-=m
     " Remove toolbar
