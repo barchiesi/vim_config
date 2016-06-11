@@ -94,7 +94,7 @@ set tabstop=4
 set confirm
 
 " Python related tabstop
-au FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
+autocmd FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
 " Use case insensitive search, except when using capital letters
 set ignorecase
@@ -197,10 +197,10 @@ endif
 """""""""""""""""""""""""""
 
 " Rainbow parenthesis
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
+autocmd VimEnter * RainbowParenthesesToggle
+autocmd Syntax * RainbowParenthesesLoadRound
+autocmd Syntax * RainbowParenthesesLoadSquare
+autocmd Syntax * RainbowParenthesesLoadBraces
 
 " NERDTree
 let NERDTreeIgnore = [
