@@ -124,7 +124,7 @@ set splitbelow
 set splitright
 
 " Enable concealing
-set conceallevel=1
+set conceallevel=0
 
 colorscheme jellybeans
 
