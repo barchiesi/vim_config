@@ -1,0 +1,89 @@
+" Convenient command to see the difference between the current buffer and the
+" file it was loaded from, thus the changes you made.
+" Only define it when not defined already.
+if !exists(":DiffOrig")
+    command DiffOrig vert new | set bt=nofile | r ++edit # | 0d_ | diffthis
+                \ | wincmd p | diffthis
+endif
+
+
+"""""""""""""""""""""""""""
+" PLUGIN CONFIGURATION
+"""""""""""""""""""""""""""
+
+" Rainbow parenthesis
+autocmd VimEnter * RainbowParenthesesToggle
+autocmd Syntax * RainbowParenthesesLoadRound
+autocmd Syntax * RainbowParenthesesLoadSquare
+autocmd Syntax * RainbowParenthesesLoadBraces
+
+" NERDTree
+let NERDTreeIgnore = [
+    \ '\.pyc$',
+    \ '^node_modules$',
+    \ '^bower_components$'
+\ ]
+
+" CtrlP
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|\.hg$\|\.svn$\|env\|node_modules$\|bower_components$|dist$',
+  \ 'file': '\.exe$\|\.so$\|\.dat|\.class$'
+  \ }
+
+" Win??
+"  \ 'file': '\v\.(exe|so|dll|class)$',
+
+" indent-guides
+let g:indent_guides_enable_on_vim_startup = 1
+let g:indent_guides_exclude_filetypes = ['help', 'nerdtree', 'python']
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 4
+let g:indent_guides_color_change_percent = 2
+
+" syntastic
+let g:syntastic_python_flake8_args = "--ignore=E501"
+let g:syntastic_python_checker_args='--ignore=E501'
+
+" Youcompleteme
+let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_global_conf.py'
+let g:ycm_use_ultisnips_completer = 1 " Default 1, just ensure
+let g:ycm_collect_identifiers_from_tags_files = 1 " Let YCM read tags from Ctags file
+let g:ycm_seed_identifiers_with_syntax = 1 " Completion for programming language's keyword
+let g:ycm_min_num_of_chars_for_completion = 99 " Disable identifier completion
+let g:ycm_complete_in_comments = 1 " Completion in comments
+let g:ycm_complete_in_strings = 1 " Completion in string
+let g:ycm_autoclose_preview_window_after_completion = 1
+
+" vim-javascript
+let g:javascript_conceal_function = "ƒ"
+
+" javascript-libraries-syntax.vim
+let g:used_javascript_libs = 'jquery,angularjs,jasmine'
+" Supported lib ids:
+"jQuery: jquery
+"underscore.js: underscore
+"Lo-Dash: underscore
+"Backbone.js: backbone
+"prelude.ls: prelude
+"AngularJS: angularjs
+"AngularUI: angularui
+"AngularUI Router: angularuirouter
+"React: react
+"Flux: flux
+"RequireJS: requirejs
+"Sugar.js: sugar
+"Jasmine: jasmine
+"Chai: chai
+"Handlebars: handlebars
+
+" Map F2 TagbarToggle
+map <S-F2> :TagbarToggle<CR>
+
+" Map <leader>p to CtrlPTag
+map <leader>p :CtrlPTag<CR>
+
+" UltiSnips shortcuts
+let g:UltiSnipsExpandTrigger       = "<c-j>"
+let g:UltiSnipsJumpForwardTrigger  = "<c-j>"
+let g:UltiSnipsJumpBackwardTrigger = "<c-p>"
+let g:UltiSnipsListSnippets        = "<c-k>" "List possible snippets based on current file
