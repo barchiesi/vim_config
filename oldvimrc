@@ -11,12 +11,6 @@ endif
 " PLUGIN CONFIGURATION
 """""""""""""""""""""""""""
 
-" Rainbow parenthesis
-autocmd VimEnter * RainbowParenthesesToggle
-autocmd Syntax * RainbowParenthesesLoadRound
-autocmd Syntax * RainbowParenthesesLoadSquare
-autocmd Syntax * RainbowParenthesesLoadBraces
-
 " NERDTree
 let NERDTreeIgnore = [
     \ '\.pyc$',
@@ -32,13 +26,6 @@ let g:ctrlp_custom_ignore = {
 
 " Win??
 "  \ 'file': '\v\.(exe|so|dll|class)$',
-
-" indent-guides
-let g:indent_guides_enable_on_vim_startup = 1
-let g:indent_guides_exclude_filetypes = ['help', 'nerdtree', 'python']
-let g:indent_guides_start_level = 2
-let g:indent_guides_guide_size = 4
-let g:indent_guides_color_change_percent = 2
 
 " syntastic
 let g:syntastic_python_flake8_args = "--ignore=E501"

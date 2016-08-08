@@ -16,6 +16,9 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'nathanaelkane/vim-indent-guides'
 
 " Colorschemes
 Plugin 'jellybeans.vim'

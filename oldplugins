@@ -6,7 +6,6 @@ i3-vim-syntax/
 javascript-libraries-syntax.vim/
 phpcomplete.vim/
 php.vim/
-rainbow_parentheses.vim/
 sparkup/
 syntastic/
 tagbar/
@@ -17,8 +16,6 @@ vim-colors-solarized/
 vim-cursorword/
 vim-endwise/
 vim-fugitive/
-vim-gitgutter/
-vim-indent-guides/
 vim-javascript/
 vim-less/
 vim-minimap/
