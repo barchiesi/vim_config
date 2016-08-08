@@ -21,6 +21,8 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'pangloss/vim-javascript'
+Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'ternjs/tern_for_vim'
 
 " Colorschemes
 Plugin 'jellybeans.vim'
@@ -39,3 +41,4 @@ source ~/.vim/config/appearance.vimrc
 source ~/.vim/config/mappings.vimrc
 source ~/.vim/config/plugin_settings.vimrc
 source ~/.vim/config/plugin_mappings.vimrc
+source ~/.vim/config/jsplugin_settings.vimrc

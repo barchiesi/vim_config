@@ -3,11 +3,9 @@ badwolf/
 delimitMate/
 gruvbox/
 i3-vim-syntax/
-javascript-libraries-syntax.vim/
 phpcomplete.vim/
 php.vim/
 sparkup/
-syntastic/
 tagbar/
 ultisnips/
 vim-atom-dark/
@@ -16,7 +14,6 @@ vim-colors-solarized/
 vim-cursorword/
 vim-endwise/
 vim-fugitive/
-vim-javascript/
 vim-less/
 vim-minimap/
 vim-rails/
