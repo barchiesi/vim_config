@@ -12,18 +12,8 @@ call vundle#begin()
 " Let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-Plugin 'scrooloose/syntastic'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'scrooloose/nerdtree'
-Plugin 'vim-airline/vim-airline'
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'nathanaelkane/vim-indent-guides'
-Plugin 'pangloss/vim-javascript'
-
-" Colorschemes
-Plugin 'jellybeans.vim'
+" Common plugins
+source ~/.vim/config/common_plugins.vimrc
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -34,8 +24,9 @@ filetype plugin indent on    " required
 " GENERAL CONFIGURATION
 """""""""""""""""""""""""""
 
-source ~/.vim/config/common.vimrc
-source ~/.vim/config/appearance.vimrc
-source ~/.vim/config/mappings.vimrc
-source ~/.vim/config/plugin_settings.vimrc
-source ~/.vim/config/plugin_mappings.vimrc
+" Common configuration
+source ~/.vim/config/common_settings.vimrc
+source ~/.vim/config/common_appearance.vimrc
+source ~/.vim/config/common_mappings.vimrc
+source ~/.vim/config/common_plugin_settings.vimrc
+source ~/.vim/config/common_plugin_mappings.vimrc
