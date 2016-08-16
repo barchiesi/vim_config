@@ -14,10 +14,3 @@ vim-fugitive/
 vim-less/
 vim-minimap/
 vim-snippets/
-vim-trailing-whitespace/
-
-RUBY
-vim-rails/
-vim-ruby/
-vim-bundler/
-vim-endwise/
