@@ -1,3 +1,5 @@
+" Set colorscheme
+colorscheme jellybeans
 
 " Set default size for gvim
 if has('gui_running')
@@ -9,8 +11,6 @@ if has('gui_running')
     set guioptions-=m
     " Remove toolbar
     set guioptions-=T
-    " Set colorscheme
-    colorscheme jellybeans
 endif
 
 " In many terminal emulators the mouse works just fine, thus enable it.
