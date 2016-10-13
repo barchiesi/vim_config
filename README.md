@@ -1,5 +1,5 @@
 # DEPENDENCIES #
-1. Building YouCompleteMe requires cmake, clang
+1. Building YouCompleteMe requires cmake, clang, boost
 2. python2-jedi for python competion.
 
 # INSTALL STEPS #
