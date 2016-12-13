@@ -22,7 +22,10 @@ vnoremap <A-k> :m '<-2<CR>gv=gv
 
 " Map F3 to save all
 map <F3> :wa<CR>
-"
+
+" Make
+nmap <S-F3> :wa<CR>:make<CR>
+
 " Spell checking
 nmap <F5> :setlocal spell! spelllang=it_IT
 nmap <S-F5> z=
