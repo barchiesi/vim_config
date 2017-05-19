@@ -1,2 +1,6 @@
 *.pyc
 spell/
+
+# eclim related, will be installed separately from this repo
+/eclim/
+/plugin/eclim.vim
