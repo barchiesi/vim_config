@@ -20,9 +20,7 @@ Additional plugins must be installed with `:PluginInstall`.
 Alternatively create the following aliases `vimruby='vim -u ~/.vim/vimrubyrc'` or `gvimruby='gvim -u ~/.vim/vimrubyrc'`.
 Additional plugins must be installed with `:PluginInstall`.
 
-## Usefull functions
+## Useful functions
 - `<c-y>,` to complete HTML with emmet.
-- Rails: `:A` (alternate) and `:R` (related) for easy jumping
-  between files, including favorites like model to schema, template to
-  helper, and controller to functional test.  Commands like `:Emodel`,
-  `:Eview`, `:Econtroller`, are provided to `:edit` files by type.
+- Rails: `:A` (alternate) and `:R` (related) for easy jumping between files, including favorites like model to schema, template to helper, and controller to functional test.  Commands like `:Emodel`, `:Eview`, `:Econtroller`, are provided to `:edit` files by type.
+- Fugitive: `:Gstatus` to view `git status`, `-` to stage/unstage files; `:Gblame` to view `git blame` on current file; `:Gcommit` to commit.
