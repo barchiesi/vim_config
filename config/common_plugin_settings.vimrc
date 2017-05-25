@@ -80,4 +80,12 @@ let g:ycm_server_python_interpreter = '/usr/bin/python2'
 """""""""""""""""""""""""""
 " grep.vim
 """""""""""""""""""""""""""
+
 let Grep_Skip_Dirs = '.git'
+
+
+"""""""""""""""""""""""""""
+" UltiSnips
+"""""""""""""""""""""""""""
+
+let g:UltiSnipsExpandTrigger="<c-j>"
