@@ -21,16 +21,18 @@ vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
 
 " Map F3 to save all
-map <F3> :wa<CR>
+nnoremap <F3> :wa<CR>
+inoremap <F3> <esc>:wa<CR>i
 
 " Make
-nmap <S-F3> :wa<CR>:make<CR>
+nnoremap <S-F3> :wa<CR>:make<CR>
+inoremap <S-F3> <esc>:wa<CR>:make<CR>
 
 " Spell checking
-nmap <F5> :setlocal spell! spelllang=it_IT
-nmap <S-F5> z=
-nmap <C-F5> ]s
-nmap <C-S-F5> [s
+nnoremap <F5> :setlocal spell! spelllang=it_IT
+nnoremap <S-F5> z=
+nnoremap <C-F5> ]s
+nnoremap <C-S-F5> [s
 
 " Map F6 to format
 nnoremap <F6> gg=G<C-o><C-o>
