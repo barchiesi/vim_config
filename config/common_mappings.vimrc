@@ -43,3 +43,6 @@ nnoremap <silent> <C-l> :noh<CR><C-l>
 " CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
 " so that you can undo CTRL-U after inserting a line break.
 inoremap <C-U> <C-G>u<C-U>
+
+" Map Emmet expanding to Ctrl+e
+imap <C-e> <C-y>,

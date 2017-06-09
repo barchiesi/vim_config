@@ -13,7 +13,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 source ~/.vim/config/common_plugins.vimrc
-source ~/.vim/config/js_plugins.vimrc
+source ~/.vim/config/web_plugins.vimrc
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -32,4 +32,4 @@ source ~/.vim/config/common_plugin_settings.vimrc
 source ~/.vim/config/common_plugin_mappings.vimrc
 
 " Javascript configuration
-source ~/.vim/config/js_plugin_settings.vimrc
+source ~/.vim/config/web_plugin_settings.vimrc
