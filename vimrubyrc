@@ -32,4 +32,4 @@ source ~/.vim/config/common_plugin_settings.vimrc
 source ~/.vim/config/common_plugin_mappings.vimrc
 
 " Javascript configuration
-source ~/.vim/config/js_plugin_settings.vimrc
+source ~/.vim/config/web_plugin_settings.vimrc
