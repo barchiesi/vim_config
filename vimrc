@@ -13,7 +13,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Common plugins
-source ~/.vim/config/common_plugins.vimrc
+source ~/.vim/config/common/plugins.vimrc
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -25,8 +25,8 @@ filetype plugin indent on    " required
 """""""""""""""""""""""""""
 
 " Common configuration
-source ~/.vim/config/common_settings.vimrc
-source ~/.vim/config/common_appearance.vimrc
-source ~/.vim/config/common_mappings.vimrc
-source ~/.vim/config/common_plugin_settings.vimrc
-source ~/.vim/config/common_plugin_mappings.vimrc
+source ~/.vim/config/common/settings.vimrc
+source ~/.vim/config/common/appearance.vimrc
+source ~/.vim/config/common/mappings.vimrc
+source ~/.vim/config/common/plugin_settings.vimrc
+source ~/.vim/config/common/plugin_mappings.vimrc

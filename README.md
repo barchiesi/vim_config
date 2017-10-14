@@ -2,7 +2,8 @@
 
 ## Dependencies
 1. Building YouCompleteMe requires cmake, clang, boost
-2. python2-jedi for python competion.
+2. (Python) python2-jedi for competion.
+3. (Javascript) npm for installing tern completion.
 3. (Ruby) Eclipse, Ruby DLTK (https://marketplace.eclipse.org/content/ruby-dltk) and eclim (installed from jar).
 
 ## Install steps
