@@ -21,6 +21,7 @@ vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
 
 " Map F3 to save all
+map <S-F2> :browse confirm e<CR>
 nnoremap <F3> :wa<CR>
 inoremap <F3> <esc>:wa<CR>i
 
