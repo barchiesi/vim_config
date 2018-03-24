@@ -4,12 +4,13 @@
 1. Building YouCompleteMe requires cmake, clang, boost
 2. (Python) python2-jedi for competion.
 3. (Javascript) npm for installing tern completion.
-3. (Ruby) Eclipse, Ruby DLTK (https://marketplace.eclipse.org/content/ruby-dltk) and eclim (installed from jar).
+4. (Ruby) Eclipse, Ruby DLTK (https://marketplace.eclipse.org/content/ruby-dltk) and eclim (installed from jar).
+5. Default font is Inconsolata, install it or change in `config/common/appearance.vimrc`.
 
 ## Install steps
 1. Clone this repository in `~/.vim`.
 2. Enter `~/.vim` and run `git submodule update --init --recursive` to pull in Vundle plugin.
-3. Launch vim and run `:PluginInstall` ti download plugins.
+3. Launch vim and run `:PluginInstall` to download plugins.
 4. (Optional) For C language semantic and JavaScript support in YouCompleteMe run `~/.vim/build_ycm_extra.sh`.
 
 ## JavaScript/HTML/CSS

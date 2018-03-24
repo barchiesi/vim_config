@@ -7,6 +7,8 @@ mkdir -p /tmp/ycm_buildme
 cd /tmp/ycm_buildme
 cmake -G "Unix Makefiles" -DUSE_SYSTEM_LIBCLANG=ON -DUSE_SYSTEM_BOOST=ON . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
 cmake --build . --target ycm_core --config Release
+# Same as above but setting number of build threads
+#cmake --build . --target ycm_core --config Release -- -j33
 
 # Setup YouCompleteMe JavaScript support
 if command -v npm >/dev/null; then
