@@ -5,8 +5,8 @@ colorscheme jellybeans
 if has('gui_running')
     " Window size
     set lines=50
-    set columns=90
-    set gfn=Inconsolata\ 12
+    set columns=150
+    set gfn=Inconsolata\ 14
     " Remove menubar
     set guioptions-=m
     " Remove toolbar
