@@ -1,28 +1,42 @@
 # barchiesi vim configuration
 
 ## Dependencies
-1. Building YouCompleteMe requires cmake, clang, boost
-2. (Python) python2-jedi for competion.
-3. (Javascript) npm for installing tern completion.
-4. (Ruby) Eclipse, Ruby DLTK (https://marketplace.eclipse.org/content/ruby-dltk) and eclim (installed from jar).
-5. Default font is Inconsolata, install it or change in `config/common/appearance.vimrc`.
+1. (C languages) cmake and  boost for completion
+2. (Python) python-jedi for competion.
+3. (Javascript) node and npm for installing TSServer via `npm install -g typescript`.
+4. Default font is Inconsolata, install it or change in `config/common/appearance.vimrc`.
 
 ## Install steps
 1. Clone this repository in `~/.vim`.
 2. Enter `~/.vim` and run `git submodule update --init --recursive` to pull in Vundle plugin.
-3. Launch vim and run `:PluginInstall` to download plugins.
-4. (Optional) For C language semantic and JavaScript support in YouCompleteMe run `~/.vim/build_ycm_extra.sh`.
+3. Run `vim -c PluginInstall` to download and install plugins.
+4. Enter `~/.vim/bundle/YouCompleteMe` and run `python3 install.py`. Append `--clang-completer` for C language semantic and JavaScript support.
 
 ## JavaScript/HTML/CSS
 `~/.vim/vimwebrc` contains JavaScript specific configuration. To use it start vim via `vim -u ~/.vim/vimwebrc` or use the script located in `~/.vim/bin`.
 Additional plugins must be installed with `:PluginInstall`.
 
-## Ruby
-`~/.vim/vimrubyrc` contains ruby specific configuration. To use it start vim via `vim -u ~/.vim/vimrubyrc` or use the script located in `~/.vim/bin`.
-Additional plugins must be installed with `:PluginInstall`.
+## Python
+The next section is taken from the YouCompleteMe README.
+### Working with virtual environments
+
+A common practice when working on a Python project is to install its
+dependencies in a virtual environment and develop the project inside that
+environment. To support this, YCM needs to know the interpreter path of the
+virtual environment. You can specify it by creating a `.ycm_extra_conf.py` file
+at the root of your project with the following contents:
+
+```python
+def Settings( **kwargs ):
+  return {
+    'interpreter_path': '/path/to/virtual/environment/python'
+  }
+```
+
+where `/path/to/virtual/environment/python` is the path to the Python used
+by the virtual environment you are working in.
 
 ## Useful functions
 - `<C-e>` or `<C-y>,` to complete HTML with emmet.
-- Rails: `:A` (alternate) and `:R` (related) for easy jumping between files, including favorites like model to schema, template to helper, and controller to functional test.  Commands like `:Emodel`, `:Eview`, `:Econtroller`, are provided to `:edit` files by type.
 - Fugitive: `:Gstatus` to view `git status`, `-` to stage/unstage files; `:Gblame` to view `git blame` on current file; `:Gcommit` to commit.
 - UltiSnips: `<c-j>` to expand a snippet.
