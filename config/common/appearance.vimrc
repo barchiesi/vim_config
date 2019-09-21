@@ -4,8 +4,8 @@ colorscheme jellybeans
 " Set default size for gvim
 if has('gui_running')
     " Window size
-    set lines=50
-    set columns=150
+    set lines=40
+    set columns=120
     set gfn=Inconsolata\ 14
     " Remove menubar
     set guioptions-=m
