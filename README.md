@@ -9,12 +9,12 @@
 ## Install steps
 1. Clone this repository in `~/.vim`.
 2. Enter `~/.vim` and run `git submodule update --init --recursive` to pull in Vundle plugin.
-3. Run `vim -c PluginInstall` to download and install plugins.
-4. Enter `~/.vim/bundle/YouCompleteMe` and run `python3 install.py`. Append `--clang-completer` for C language semantic and JavaScript support.
+3. Run `vim -c PluginInstall` to download and install plugins. Errors until plugin list are expected.
+4. Enter `~/.vim/bundle/YouCompleteMe` and run `python3 install.py --clang-completer`. Remove `--clang-completer` to disable  C language semantic and JavaScript support.
 
 ## JavaScript/HTML/CSS
 `~/.vim/vimwebrc` contains JavaScript specific configuration. To use it start vim via `vim -u ~/.vim/vimwebrc` or use the script located in `~/.vim/bin`.
-Additional plugins must be installed with `:PluginInstall`.
+Additional plugins must be installed with `:PluginInstall` while using `~/.vim/vimwebrc` config.
 
 ## Python
 The next section is taken from the YouCompleteMe README.
