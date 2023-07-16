@@ -1,5 +1,5 @@
 " Set colorscheme
-colorscheme jellybeans
+colorscheme nord
 
 " Set default size for gvim
 if has('gui_running')

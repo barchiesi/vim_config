@@ -1,6 +1,7 @@
 Plugin 'airblade/vim-gitgutter'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'digitaltoad/vim-pug'
+Plugin 'arcticicestudio/nord-vim'
 Plugin 'jellybeans.vim'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
