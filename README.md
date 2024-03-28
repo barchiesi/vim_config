@@ -7,14 +7,14 @@
 4. Default font is Inconsolata, install it or change in `config/common/appearance.vimrc`.
 
 ## Install steps
-1. Clone this repository in `~/.vim`.
-2. Enter `~/.vim` and run `git submodule update --init --recursive` to pull in Vundle plugin.
+1. Clone this repository in `~/.vim` or `~/vimfiles` if using with Windows. This path will be referred to as `$VIMHOME`.
+2. Enter `$VIMHOME` and run `git submodule update --init --recursive` to pull in Vundle plugin.
 3. Run `vim -c PluginInstall` to download and install plugins. Errors until plugin list are expected.
-4. Enter `~/.vim/bundle/YouCompleteMe` and run `python3 install.py --clang-completer`. Remove `--clang-completer` to disable  C language semantic and JavaScript support.
+4. Enter `$VIMHOME/bundle/YouCompleteMe` and run `python3 install.py --clang-completer`. Remove `--clang-completer` to disable  C language semantic and JavaScript support.
 
 ## JavaScript/HTML/CSS
-`~/.vim/vimwebrc` contains JavaScript specific configuration. To use it start vim via `vim -u ~/.vim/vimwebrc` or use the script located in `~/.vim/bin`.
-Additional plugins must be installed with `:PluginInstall` while using `~/.vim/vimwebrc` config.
+`$VIMHOME/vimwebrc` contains JavaScript specific configuration. To use it start vim via `vim -u $VIMHOME/vimwebrc` or use the script located in `$VIMHOME/bin`.
+Additional plugins must be installed with `:PluginInstall` while using `$VIMHOME/vimwebrc` config.
 
 ## Python
 The next section is taken from the YouCompleteMe README.
