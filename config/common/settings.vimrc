@@ -6,13 +6,9 @@
 set directory=~/.vim/swap
 set undodir=~/.vim/undo
 
-" Use Vim settings, rather than Vi settings (much better!).
-" This must be first, because it changes other options as a side effect.
-set nocompatible
-
 " Attempt to determine the type of a file based on its name and possibly its
 " contents.  Use this to allow intelligent auto-indenting for each filetype,
-"and for plugins that are filetype specific.
+" and for plugins that are filetype specific.
 filetype indent plugin on
 
 " Allow backspacing over everything in insert mode

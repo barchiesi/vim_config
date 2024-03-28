@@ -1,8 +1,14 @@
 """""""""""""""""""""""""""
-" VUNDLE CONFIGURATION
+" MUST CONFIGURATION
 """""""""""""""""""""""""""
 
 set nocompatible              " be iMproved, required
+
+
+"""""""""""""""""""""""""""
+" VUNDLE CONFIGURATION
+"""""""""""""""""""""""""""
+
 filetype off                  " required
 
 " Set the runtime path to include Vundle and initialize
