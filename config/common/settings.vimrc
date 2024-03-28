@@ -3,8 +3,8 @@
 """""""""""""""""""""""""""
 
 " Directory locations
-set directory=~/.vim/swap
-set undodir=~/.vim/undo
+set directory=$VIM_DIR/swap
+set undodir=$VIM_DIR/undo
 
 " Attempt to determine the type of a file based on its name and possibly its
 " contents.  Use this to allow intelligent auto-indenting for each filetype,
