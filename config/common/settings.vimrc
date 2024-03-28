@@ -2,9 +2,14 @@
 " COMMON CONFIGURATION
 """""""""""""""""""""""""""
 
+let win_shell = (has('win32') || has('win64')) && &shellcmdflag =~ '/'
+
 " Directory locations
-set directory=$VIM_DIR/swap
-set undodir=$VIM_DIR/undo
+let $SWAP_DIR = win_shell ? $HOME . '/vimfiles/swap' : $HOME .'/.vim/swap'
+set directory=$SWAP_DIR
+
+let $UNDO_DIR = $HOME . (win_shell ? '/vimfiles/undo' : '/.vim/undo')
+set undodir=$UNDO_DIR
 
 " Attempt to determine the type of a file based on its name and possibly its
 " contents.  Use this to allow intelligent auto-indenting for each filetype,
